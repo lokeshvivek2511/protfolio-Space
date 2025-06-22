@@ -1,0 +1,118 @@
+# Prompt for Creating a Stunning Animated Portfolio with Replit AI
+
+**Title:** "Create a Vibrant, Animated Portfolio with React + Vite & Tailwind CSS"
+
+**Instructions:**
+
+Create a visually stunning, animated portfolio website for Lokeshwaran V using only frontend technologies (no backend or database). The portfolio should be highly interactive with rich animations and a dark color theme with vibrant accent colors. 
+
+**Technical Requirements:**
+- Use React + Vite for the project structure
+- Style with Tailwind CSS (dark mode preferred with high-contrast accents)
+- Implement animations using Framer Motion as the primary library, supplemented with React Awesome Reveal
+- Create a clean file structure ready for Netlify deployment
+- Optimize all assets for fast loading
+- Make fully responsive for all device sizes
+
+**Design Requirements:**
+- Dark theme base with vibrant accent colors (electric blue, neon green, hot pink)
+- Smooth page transitions between sections
+- Attention-grabbing animated elements throughout
+- Modern, tech-inspired aesthetic
+- Professional yet creative presentation of information
+
+**Sections to Include (with animation concepts):**
+
+1. **Home/Hero Section**
+   - Animated typing effect for name/title
+   - Particle background or animated gradient
+   - Floating social media icons
+   - "Scroll down" animated arrow
+
+2. **About Section**
+   - Animated timeline for career journey
+   - Floating avatar/image placeholder
+   - Text that reveals on scroll
+
+3. **Skills Section**
+   - Animated skill bars/charts
+   - Interactive 3D skill cloud (using Spline integration)
+   - Hover effects on all skill items
+
+4. **Projects Section**
+   - Animated project cards with hover effects
+   - Parallax scrolling effects
+   - Modal popups for project details
+
+5. **Internships Section**
+   - Timeline animation with company logos
+   - Expandable details for each internship
+
+6. **Education Section**
+   - Animated academic timeline
+   - Institution logos with hover effects
+
+7. **Certifications Section**
+   - Animated certification cards
+   - Badge display with hover animations
+
+8. **Accomplishments Section**
+   - Trophy/medal animations
+   - Counter animations for LeetCode stats
+   - Award cards with tilt effects
+
+9. **Contact Section**
+   - Animated form fields
+   - Floating contact methods
+   - Interactive map element
+
+**File Structure:**
+```
+/src
+  /assets
+    /images
+    /animations
+  /components
+    /sections
+      Home.jsx
+      About.jsx
+      Skills.jsx
+      Projects.jsx
+      Internships.jsx
+      Education.jsx
+      Certifications.jsx
+      Accomplishments.jsx
+      Contact.jsx
+    /ui
+      Navbar.jsx
+      Footer.jsx
+      AnimatedText.jsx
+      etc.
+  /styles
+    globals.css
+    animations.css
+  App.jsx
+  main.jsx
+index.html
+```
+
+**Additional Notes:**
+- Use placeholder images where needed (avatar, project screenshots, etc.)
+- Implement smooth scroll navigation
+- Add a "back to top" floating button
+- Include subtle sound effects for major interactions (optional)
+- Ensure all animations are performant and don't hinder usability
+- Make color scheme consistent but vibrant throughout
+
+**Deployment:**
+- Structure the project so it can be directly deployed to Netlify with zero configuration
+- Include a basic netlify.toml file if needed
+
+**Data Source:**
+All content should be pulled from the provided resume. If any information is missing or unclear, ask for clarification before beginning development.
+
+**Final Output Should:**
+- Immediately impress with its visual appeal
+- Showcase technical skills through its implementation
+- Maintain professional credibility while being creative
+- Perform smoothly on all modern browsers
